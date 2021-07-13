@@ -51,7 +51,12 @@ function WhatWeDo() {
             are at superb levels by maintaining our cars under well labeled
             services
           </p>
-          <div className="WWD-Left1"></div>
+        </div>
+        <div className="WWD-Left1">
+          <img
+            className="WWD-Image2"
+            src={require("../Asssets/Images/pngaaa.com-7975948.png")}
+          />
         </div>
       </div>
     </div>

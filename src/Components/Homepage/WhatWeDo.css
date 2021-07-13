@@ -82,6 +82,7 @@
 }
 
 .WWD-Right {
+    margin-top: 30px;
     background-image: url("../Asssets/Images/pngaaa.com-7975948.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -89,8 +90,14 @@
 }
 
 .WWD-Left1{
-    background-image: url("../Asssets/Images/pngaaa.com-7975948.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WWD-Image2{
+    margin-top: 70px;
+    align-self: center;
+    height: 250px;
+    width: 250px;
 }
