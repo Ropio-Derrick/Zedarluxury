@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 function Header() {
   return (
     <div className="Header-House">
       <div className="Header-Left">
-        <img
-          className="Header-Logo"
-          src={require("../../Asssets/Images/logo512.png")}
-        />
+        <h1 className="WWD-Text-125">
+          Zedar <span>Luxury</span>
+        </h1>
       </div>
       <div className="Header-Right">
         <ul>

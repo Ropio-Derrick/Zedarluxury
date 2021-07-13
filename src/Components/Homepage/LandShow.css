@@ -14,15 +14,25 @@
     float: right;
     margin-right: 50px;
     margin-top: 60px;
+    padding: 17px;
+    box-shadow:inset 2px 2px 70px 0px  rgba(165, 42, 42, 0.413);
 }
 
 .Ride-Space-Text{
-    font-size: 20px;
+    margin-top: 40px;
+    color: brown;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Ride-Space-Text1{
+    margin-top: 10px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 .Ride-Button{
-    margin-top: 90px;
+    margin-top: 0px;
     background-color: brown;
     outline: none;
     border: 2px solid brown;
