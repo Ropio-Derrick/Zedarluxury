@@ -1,0 +1,9 @@
+.Closure-House{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}

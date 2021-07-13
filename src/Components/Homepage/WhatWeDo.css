@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 1fr;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 50px;
 }
 
 .WWD-Text-1{
@@ -28,13 +29,66 @@
     font-weight: 600;
 }
 
+
+.WWD-Text-123{
+
+    text-align: center;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.WWD-Text-123 span{
+    color: brown ;
+    font-weight: 600;
+}
+
+
+.WWD-Text-129{
+
+    text-align: right;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.WWD-Text-129 span{
+    color: brown ;
+    font-weight: 600;
+}
+
+
 .WWD-Text-2{
     margin: 0px;
     text-align: left;
     font-size: 17px;
 }
+.WWD-Text-29{
+    margin: 0px;
+    text-align: right;
+    font-size: 17px;
+}
 
-.WWD-Right{
+.WWD-Text-23{
+    margin: 0px;
+    text-align: center;
+    font-size: 17px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.WWD-Right {
+    background-image: url("../Asssets/Images/pngaaa.com-7975948.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.WWD-Left1{
     background-image: url("../Asssets/Images/pngaaa.com-7975948.png");
     background-position: center;
     background-repeat: no-repeat;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./Components/Homepage/Home";
+import Footer from "./Components/Parents/Footer/Footer";
 // import House from "./Components/House/House";
 import Header from "./Components/Parents/Header/Header";
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       {/* <House /> */}
       <Home />
+      <Footer />
     </div>
   );
 }

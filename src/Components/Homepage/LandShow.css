@@ -6,6 +6,8 @@
     background-size: cover;
 }
 
+
+
 .Ride-Space{
     width: 200px;
     height: 200px;
@@ -15,7 +17,7 @@
     margin-right: 50px;
     margin-top: 60px;
     padding: 17px;
-    box-shadow:inset 2px 2px 70px 0px  rgba(165, 42, 42, 0.413);
+    box-shadow:inset 2px 2px 70px 0px  rgba(165, 42, 42, 0.148);
 }
 
 .Ride-Space-Text{

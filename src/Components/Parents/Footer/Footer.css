@@ -1,0 +1,41 @@
+.Footer-House{
+    background-color: brown;
+    height: 250px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Footer-Blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top:50px;
+
+}
+
+.Footer-Image{
+    height: 240px;
+    width: 300px;
+}
+
+.Footer-Head{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    letter-spacing: 2px;
+
+}
+.Footer-box{
+    margin: 0px;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+

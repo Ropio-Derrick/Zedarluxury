@@ -1,0 +1,62 @@
+.Body-House{
+    background-image: url("../Asssets/Images/backland.jpg");
+   
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: static;
+}
+
+.BodyShow-OverLay{
+    box-shadow: inset rgba(165, 42, 42, 0.705) 1px 1px 250px 1px;
+    height: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+    justify-content: center; 
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.BS-Left{
+    background-color: rgba(165, 42, 42, 0.623);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.BS-Text{
+    padding-left: 30px;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.BS-Text1{
+    padding-left: 30px;
+    margin-top: -20px;
+
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    width: 80%;
+}
+
+.BS-Image{
+    height: 300px;
+    width: 300px;
+}
+
+.BS-Button{
+    margin-left: 30px;
+    float: left;
+    border-radius: 50%;
+    height: 55px;
+    border:none;
+    width: 55px;
+    font-size: 25px;
+    color: brown;
+}
+
