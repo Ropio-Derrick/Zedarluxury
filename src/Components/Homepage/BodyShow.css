@@ -11,9 +11,8 @@
 .BodyShow-OverLay{
     box-shadow: inset black 1px 1px 250px 1px;
     height: 100%;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-    justify-content: center; 
+    display: flex;
+    justify-content: left; 
     align-items: center;
     padding-right: 50px;
     padding-left: 50px;
@@ -58,5 +57,34 @@
     width: 55px;
     font-size: 25px;
     color: black;
+}
+
+@media screen and (max-width:610px) {
+    .BodyShow-OverLay{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .BS-Text{
+        font-size: 40px;
+        
+    }
+    .BS-Text1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:510px){
+    .BS-Text{
+        padding-left: 10px;
+        line-height: 40px;
+    }
+    .BS-Text1{
+        padding-left: 10px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .BS-Button{
+        margin-left: 10px;
+    }
 }
 

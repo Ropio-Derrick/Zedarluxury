@@ -30,3 +30,28 @@
     color: #f2f2f2;
     font-size: 17px;
 }
+
+@media screen and (max-width:570px) {
+   
+    .Pick-Par{
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+}
+@media screen and (max-width:400px) {
+   
+    .Pick-Par{
+       font-size: 16px;
+    }
+    .Pick-Text-1, .Pick-Text-2{
+        font-size: 40px;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+.PickGround{
+height: 220px;
+}
+}

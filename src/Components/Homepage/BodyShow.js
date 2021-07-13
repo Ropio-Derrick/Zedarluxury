@@ -20,12 +20,7 @@ function BodyShow() {
             <button className="BS-Button">I</button>
           </div>
         </div>
-        <div className="BS-Right">
-          <img
-            className="BS-Image"
-            src={require("../Asssets/Images/color.png")}
-          />
-        </div>
+        
       </div>
     </div>
   );

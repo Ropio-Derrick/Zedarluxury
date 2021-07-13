@@ -83,7 +83,7 @@
 }
 
 .WWD-Text-23{
-    margin: 0px;
+    
     text-align: center;
     font-size: 17px;
     width: 70%;
@@ -109,4 +109,55 @@
     align-self: center;
     height: 250px;
     width: 250px;
+}
+
+@media screen and (max-width:710px) {
+    .WWD-Board{
+    
+    padding-left: 50px;
+    padding-right: 50px;}
+    .WWD-Text-23{
+        width: auto;
+        margin-left: 0%;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+}
+
+@media screen and (max-width:610px) {
+    .WWD-Board{
+       
+        padding-left: 20px;
+        padding-right: 20px;}
+
+        .WWD-Text-23{
+            padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        
+        }
+    .WWD-Text-2{
+        text-align: justify;
+    }
+    .WWD-Text-123{
+        padding-top: 00px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .WWD-Board{
+        grid-template-columns:  1fr;
+    }
+    .WWD-Text-123{
+        padding-left: 20px;
+        text-align: left;
+    }
+  .WWD-Text-129{
+        text-align: left;
+    }
+    .WWD-Text-29{
+        text-align: justify;
+    }
 }
