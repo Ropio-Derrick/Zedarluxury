@@ -1,0 +1,35 @@
+.WWD-Board{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.WWD-Text-1{
+    padding-top: 30px;
+    margin: 0%;
+    font-size: 40px;
+    color: brown ;
+}
+
+.WWD-Text-12{
+
+    text-align: left;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.WWD-Text-12 span{
+    color: brown ;
+    font-weight: 600;
+}
+
+.WWD-Text-2{
+    margin: 0px;
+    text-align: left;
+    font-size: 17px;
+}

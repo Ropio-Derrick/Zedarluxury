@@ -1,0 +1,42 @@
+.Header-House{
+    display: grid;
+    grid-template-columns:15% 85%;
+    padding-top: 7px ;
+    padding-bottom: 7px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.Header-Left{
+    background-color: transparent;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Right{
+    padding-right: 30px;
+}
+
+.Header-Right ul a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.Header-Right ul a:hover{
+    color: brown;
+    transition: all 0.5s ease-out;
+}
+
+.Header-Logo{
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
