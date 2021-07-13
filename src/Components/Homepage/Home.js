@@ -13,8 +13,8 @@ function Home() {
       <PickView />
       <LandShow />
       <WhatWeDo />
-      {/* <BlocksCard /> */}
       <BodyShow />
+      <BlocksCard />
       <Closure />
     </div>
   );

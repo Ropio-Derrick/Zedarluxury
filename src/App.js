@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Header />
       {/* <House /> */}
-      {/* <Home /> */}
+      <Home />
       {/* <Contact /> */}
       {/* <AboutUs /> */}
-      <Hire />
+      {/* <Hire /> */}
       <Footer />
     </div>
   );

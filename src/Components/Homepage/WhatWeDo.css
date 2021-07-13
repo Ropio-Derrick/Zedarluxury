@@ -1,17 +1,26 @@
 .WWD-Board{
-    background-color: white;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 50px;
+    margin-top: 30px;
+    opacity: 50%;
+
+    transition: all 1s ease-in;
+}
+
+.WWD-Board:hover{
+    transition: all 1s ease-out;
+    opacity: 100%;
 }
 
 .WWD-Text-1{
     padding-top: 30px;
     margin: 0%;
     font-size: 40px;
-    color: brown ;
+    color: #E0aa3e;
 }
 
 .WWD-Text-12{
@@ -25,7 +34,7 @@
 }
 
 .WWD-Text-12 span{
-    color: brown ;
+    color: #E0aa3e;
     font-weight: 600;
 }
 
@@ -41,7 +50,7 @@
 }
 
 .WWD-Text-123 span{
-    color: brown ;
+    color: #E0aa3e;
     font-weight: 600;
 }
 
@@ -57,7 +66,7 @@
 }
 
 .WWD-Text-129 span{
-    color: brown ;
+    color: #E0aa3e;
     font-weight: 600;
 }
 

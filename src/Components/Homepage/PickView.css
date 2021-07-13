@@ -1,5 +1,5 @@
 .PickGround{
-    background-color: white;
+    background-color: black;
     height: 250px;
     margin: 0px;
     padding-top: 40px;
@@ -13,18 +13,20 @@
 }
 
 .Pick-Text-1{
-    color: brown;
+    color: #E0aa3e;
 
 }
 .Pick-Text-2{
     font-weight: 500;
+    color: #f2f2f2;
 }
 
 .Pick-Text-2 span{
-    color: brown;
+    color: #E0aa3e;
     font-weight: 600;
 }
 
 .Pick-Par{
+    color: #f2f2f2;
     font-size: 17px;
 }

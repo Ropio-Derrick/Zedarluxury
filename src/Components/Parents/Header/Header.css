@@ -3,9 +3,10 @@
     grid-template-columns:30% 70%;
     padding-top: 7px ;
     padding-bottom: 7px;
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
     position: fixed;
     width: 100%;
+    z-index: 9;
 }
 
 .Header-Left{
@@ -20,13 +21,13 @@
 
     text-align: left;
     margin: 0px;
- 
+    color: #f2f2f2;
     font-size: 35px;
     font-weight: 500;
 }
 
 .WWD-Text-125 span{
-    color: brown ;
+    color: #E0aa3e;
     font-weight: 600;
 }
 
@@ -36,7 +37,7 @@
 
 .Header-Right ul a{
     text-decoration: none;
-    color: rgb(33, 33, 33);
+    color: #f2f2f2;
     font-size: 20px;
     padding-left:20px;
     padding-right: 20px;
@@ -44,7 +45,7 @@
 }
 
 .Header-Right ul a:hover{
-    color: brown;
+    color: #E0aa3e;
     transition: all 0.5s ease-out;
 }
 
