@@ -18,7 +18,7 @@
 }
 
 .WWD-Text-125{
-
+    position: fixed;
     text-align: left;
     margin: 0px;
     color: #f2f2f2;
@@ -34,6 +34,7 @@
 .Header-Right{
     padding-right: 30px;
 }
+
 
 .Header-Right ul a{
     text-decoration: none;
@@ -54,4 +55,101 @@
     height: 40px;
     width: 40px;
 }
+
+.Header-Right21{
+    display: none;
+    }
+
+.Header-Right2{
+display: none;
+}
+
+@media screen and (max-width:850px) {
+    .Header-Right ul a{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:810px) {
+
+    .WWD-Text-125{
+font-size: 30px;
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    .Header-Right ul a{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:750px) {
+
+    .Header-Right ul a{
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    .Header-Right{
+        padding-right: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width:560px) {
+    .Header-House{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+        position: absolute;
+    }
+    .Header-Right{
+        display: none;
+    }
+    .Header-Right2{
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        color: black;
+     
+    }
+
+    .Header-Right21{
+        display: block;
+        color: #f2f2f2;
+        background-color: #E0aa3e;
+        width: 70%;
+        }
+        .Header-Right21 ul{
+            display: flex;
+            flex-direction: column;
+        }
+        .Header-Right21 ul a{
+            color: #f2f2f2;
+            text-decoration: none;
+        }
+    .Header-Btn{
+        text-align: center;
+        outline: none;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        height: 35px;
+        width: 40px;
+        background-color: #E0aa3e;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .clicker{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    }
+
 

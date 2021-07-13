@@ -7,3 +7,27 @@
     margin-left: 50px;
 
 }
+    
+.SLI{
+    height: 200px;
+    width: 200px;
+    transition: 2s ease-out;
+    animation: 1s rotate  linear infinite;
+    background-color: #473612;
+    border-radius: 50%;
+    }
+    @keyframes rotate {
+        0%{ transition: 1s ease-out;
+            transform: rotateZ(360deg   );
+        }
+        100%{
+            transition: 1s ease-out;
+            transform: rotateZ(0deg   );
+        }
+    }
+    @media screen and (max-width:510px){
+        .Closure-House{
+        grid-template-columns: 1fr;
+        margin-right: 20px;
+        margin-left: 20px;}
+    }

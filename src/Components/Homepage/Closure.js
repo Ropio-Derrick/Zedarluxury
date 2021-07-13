@@ -9,6 +9,7 @@ function Closure() {
         <h1 className="WWD-Text-12">
           Slide <span>Show</span>
         </h1>
+        <img className="SLI" src={require("../Asssets/Images/logo512.png")} />
       </div>
       <div className="WWD-Left">
         <h1 className="WWD-Text-12">

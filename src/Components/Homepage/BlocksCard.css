@@ -42,3 +42,50 @@
     font-weight: 500;
     color:rgba(255, 255, 255, 0.575);
 }
+
+@media screen and (max-width:780px){
+    .Block-Box{
+        width: 250px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .Closure-House{
+    grid-template-columns: 1fr;
+    margin-right: 20px;
+    margin-left: 20px;}
+    .Block-Box{
+        width: 250px;
+        height: 150px;
+    }
+    .Block-Box h1{
+
+        font-size: 20px;
+     
+    }
+    .Block-House{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:550px){
+  
+    .Block-Box{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:490px){
+  
+  .Block-House{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Block-Box{
+        width: 140px;
+        height: 150px;
+    }
+}

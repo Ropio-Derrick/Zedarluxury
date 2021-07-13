@@ -17,7 +17,7 @@ function App() {
       {/* <Contact /> */}
       {/* <AboutUs /> */}
       {/* <Hire /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
