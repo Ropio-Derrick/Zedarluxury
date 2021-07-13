@@ -1,0 +1,14 @@
+.House_Footer{
+    background-color: lightseagreen;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top:-30px;
+}
+
+.Footer_Text{
+    align-items: center;
+    text-align: center;
+}

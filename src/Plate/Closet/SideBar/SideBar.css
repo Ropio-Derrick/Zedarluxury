@@ -1,0 +1,92 @@
+.House_Sidebar{
+    height: 100vh;
+    z-index: 9;
+justify-content: center;
+width: 100%;
+
+}
+
+.Top_Sidebar{
+    background-color: rgba(9, 6, 29, 0.802);
+    height: 49%;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow: #0000006b 1px 1px 50px -10px;
+    display: grid;
+   
+
+}
+
+
+.Bottom_Sidebar{
+    background-color: rgba(9, 6, 29, 0.802);
+    display: grid;
+    border-radius: 0px 20px 0px 0px;
+    box-shadow: #0000006b 1px 1px 50px -10px;
+    height: 47%;
+
+
+}
+
+.spacer{
+    height: 4%;
+}
+
+.List_ManagerA,.List_ManagerB{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    text-align: left;
+}
+
+.List_ManagerB{
+    padding-top: 5px;
+    font-size: 20px;
+
+}
+
+.Title_Sidebar{
+    font-size: 30px;
+    margin: 0px;
+    padding-top:20px ;
+    padding-bottom: 10px;
+    animation: Changer 3s infinite;
+}
+
+@keyframes Chager {
+    0%{
+        color: white;
+    }
+    50%{
+        color: #de9727;
+    }
+    100%{
+        color: white;
+    }
+
+}
+    
+
+.Clicker_Btn{
+    padding-left: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+    width: 80%;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 5px; 
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.2s all ease-in-out;
+}
+
+.Clicker_Btn:hover {
+    transition: 0.3s all ease-in-out;
+    color: #de8727;
+
+}
+

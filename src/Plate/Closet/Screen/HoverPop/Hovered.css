@@ -1,7 +1,7 @@
 .Hover{
     position: fixed;
-    margin-top: 150px;
     width: 170px;
+    transform: rotate(90deg);
 }
 
 .Hover-Locker{
@@ -13,7 +13,7 @@
     justify-content:left;
     overflow: hidden;
     position: relative;
-    background-color: salmon;
+    background-color: rgba(9, 6, 29, 0.802);
     width: 30%;
     margin: 5px 5px 5px 0px;
     transition: 0.25s all ease-out;
@@ -22,11 +22,14 @@
 }
 
 .Hover-Locker:hover{
-    background-color: salmon;
+    background-color: rgba(9, 6, 29, 0.802);
     width: 100%;
-    transition: 0.25s all ease-in;
+    transition: 0.15s all ease-in;
 }
 
+.Hover-Locker span h1{
+    font-size: 20px;
+}
 .Hover-Locker span:first-child {
     transform: translateX(-100px);
 }
@@ -55,10 +58,11 @@
 
 
 .Hover-Icon{
-    background-color: salmon;
+    background-color: transparent;
     color: white;
     font-size: 20px !important;
     text-align: center;
+    transform: rotate(-90deg);
 }
 
 .Hover-Icon1{
@@ -67,14 +71,15 @@
     text-align: center;
     padding-right: 5px;
     margin-top: 5px;
-    transition: 0.25s all ease-out;
+    transition: 0.5s all ease-out;
+    transform: rotate(-90deg);
 
 }
 
 .Hover-Icon1:hover{
-    color: black;
+    color: #de8727;
     scale: 125%;
-    transition: 0.25s all ease-in;
+    transition: 0.5s all ease-in;
 
 }
 
