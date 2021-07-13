@@ -1,0 +1,58 @@
+.Land-House{
+    background-image: url(.././Asssets/Images/backland.jpg);
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.Ride-Space{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 60px;
+    padding: 17px;
+    box-shadow:inset 2px 2px 70px 0px  rgba(165, 42, 42, 0.148);
+}
+
+.Ride-Space-Text{
+    margin-top: 40px;
+    color: brown;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Ride-Space-Text1{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Ride-Button{
+    margin-top: 0px;
+    background-color: brown;
+    outline: none;
+    border: 2px solid brown;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    transition: all 0.25s ease-in;
+
+}
+
+
+.Ride-Button:hover{
+    background-color: white;
+    color: brown;
+    transition: all 0.25s ease-out;
+}
+

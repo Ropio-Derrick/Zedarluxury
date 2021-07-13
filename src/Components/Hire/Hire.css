@@ -1,0 +1,56 @@
+.Hire-House{
+    padding-top: 100px;
+}
+
+.Car-Form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 50px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow:  rgba(165, 42, 42, 0.164) 1px 1px 40px 0px;
+}
+
+.Car-Selector{
+    color: brown;
+    outline: none;
+    border: 1px solid brown;
+    background-color:white;
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Car-Selector:focus{
+    background-color:brown;
+color: white;
+}
+
+.Car-Btn{
+    color: white;
+    background-color: brown;
+    margin-top: 30px;
+    margin-left: 25%;
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.CT1{
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 0px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.Form-Close{
+    display: grid;
+    grid-template-columns: 35%  60%;
+
+    justify-content: center;
+    align-items: center;
+}

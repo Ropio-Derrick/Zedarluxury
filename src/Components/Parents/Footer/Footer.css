@@ -3,7 +3,7 @@
     height: 250px;
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30% 20% 20% 30%;
 }
 
 .Footer-Blocks{
@@ -14,10 +14,34 @@
     margin-top:50px;
 
 }
+.Footer-Blocks1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top:50px;
+
+}
 
 .Footer-Image{
-    height: 240px;
-    width: 300px;
+    height: 150px;
+    width: 250px;
+}
+
+.WWD-Text-1251{
+
+    text-align: left;
+    margin: 0px;
+    
+    font-size: 30pxpx;
+    font-weight: 500;
+    color: white;
+    padding-left: 30px;
+}
+
+.WWD-Text-1251 span{
+    color: white ;
+    font-weight: 600;
 }
 
 .Footer-Head{
@@ -38,4 +62,6 @@
     display: flex;
     flex-direction: column;
 }
+
+
 

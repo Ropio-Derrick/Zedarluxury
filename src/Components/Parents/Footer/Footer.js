@@ -4,11 +4,14 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer-House">
-      <div>
+      <div className="Footer-Blocks1">
         <img
           className="Footer-Image"
           src={require("../../Asssets/Images/Logo.png")}
         />
+        <h1 className="WWD-Text-1251">
+          Zedar <span>Luxury</span>
+        </h1>
       </div>
       <div className="Footer-Blocks">
         <h1 className="Footer-Head">Pages</h1>

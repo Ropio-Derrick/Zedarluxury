@@ -13,10 +13,10 @@ function Header() {
         <ul>
           <a href="">Home</a>
           <a href="">Hire</a>
-          <a href="">Auction</a>
-          <a href="">Gallery</a>
+          <a href="">Models</a>
           <a href="">About Us</a>
           <a href="">Contact</a>
+          
         </ul>
       </div>
     </div>

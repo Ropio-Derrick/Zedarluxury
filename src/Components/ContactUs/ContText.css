@@ -1,0 +1,56 @@
+.ContText-House{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.CT-Text{
+
+    text-align: left;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.CT-Text span{
+    color: brown ;
+    font-weight: 600;
+}
+.CT-Text1{
+    margin: 0px;
+    text-align: left;
+    font-size: 17px;
+    width: 70%;
+}
+
+.Cont-Lay{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+    letter-spacing: 2px;
+
+}
+
+.Cont-LayText1{
+    font-size: 20px;
+    color: brown;
+    margin: 0px;
+    padding: 0px;
+}
+.Cont-LayText2{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ContText-Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
