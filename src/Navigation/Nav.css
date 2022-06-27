@@ -49,11 +49,19 @@
     text-decoration: none;
     font-size: 20px;
     transition: all 0.25s ease-out;
+    text-align: center;
 }
 
-.Page:hover{
+.Page:hover , .Page-Icon:hover{
     color: salmon;
     transition: all 0.25s ease-in;
+}
+
+.Page-Icon{
+    color: white;
+    text-align: center;
+    font-size: 17px !important;
+    transition: all 0.25s ease-out;
 }
 
 .Join-btn{
@@ -64,6 +72,7 @@
     border-radius: 14px;
     font-size: 20px;
     transition: all 0.25s ease-out;
+    margin-right: 30px;
 
 }
 
