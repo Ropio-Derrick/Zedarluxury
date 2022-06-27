@@ -1,31 +1,61 @@
 .Block-Main{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .Block-Main-Text{
     text-align: center;
     font-size: 50px;
+    font-weight: 450
+}
+
+.Block-Main-Text span{
+    color: salmon;
+    font-weight: 900;
 }
 
 .Block-House{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.Block-Box:hover{
+    background-color: rgba(255, 255, 255, 0.041);
+    transition: all 0.3s ease-out;
 }
 
 .Block-Box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    border-radius: 14px;
 }
 
 .Block-Icon{
+    padding-top: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
     color: salmon;
-    font-size: 55px !important;
-
+    font-size: 50px !important;
+    align-items: center;
+    text-align: center;
 }
 
 .Block-Head{
-    color: salmon;
-    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #f9f9f9;
+    font-size: 25px;
     font-weight: 700;
+    text-align: left;
+}
+
+.Block-Text{
+    margin-top: -15px;
+    color:rgba(255, 255, 255, 0.638);
+    text-align: left;
 }

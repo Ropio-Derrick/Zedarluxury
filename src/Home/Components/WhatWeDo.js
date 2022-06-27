@@ -1,38 +1,44 @@
 import React from 'react'
 import './WhatWeDo.css'
-import { Help } from '@mui/icons-material'
+import { FmdGoodOutlined, StackedBarChartRounded, FastfoodOutlined } from '@mui/icons-material'
 
 function WhatWeDo() {
   return (
     <div className="Block-Main">
       <h1 className="Block-Main-Text">
-        What We Do
+        What we <span>offer</span>
       </h1>
 
       <div className="Block-House">
         <div className="Block-Box">
-          <Help className="Block-Icon" />
-          <h1 className="Block-Head">Lorem ipsum</h1>
-          <p className="Block-Text">
-            Module build failed (from ./node_modules/babel-loader/lib/index.js):
-            SyntaxError: 
-          </p> 
-        </div>    
+          <StackedBarChartRounded className="Block-Icon" />
+          <div className="Block-closer">
+            <h1 className="Block-Head">Lorem ipsum</h1>
+            <p className="Block-Text">
+              Module build failed (from ./node_modules/babel-loader
+            </p> 
+          </div>
+       
+        </div>  
         <div className="Block-Box">
-          <Help className="Block-Icon"/>
-          <h1 className="Block-Head">Lorem ipsum</h1>
-          <p className="Block-Text">
-            Module build failed (from ./node_modules/babel-loader/lib/index.js):
-            SyntaxError: 
-          </p> 
-        </div>
+          <FastfoodOutlined  className="Block-Icon" />
+          <div className="Block-closer">
+            <h1 className="Block-Head">Lorem ipsum</h1>
+            <p className="Block-Text">
+              Module build failed (from ./node_modules/babel-loader/
+            </p> 
+          </div>
+       
+        </div> 
         <div className="Block-Box">
-          <Help className="Block-Icon"/>
-          <h1 className="Block-Head">Lorem ipsum</h1>
-          <p className="Block-Text">
-            Module build failed (from ./node_modules/babel-loader/lib/index.js):
-            SyntaxError: 
-          </p> 
+          < FmdGoodOutlined className="Block-Icon" />
+          <div className="Block-closer">
+            <h1 className="Block-Head">Lorem ipsum</h1>
+            <p className="Block-Text">
+              Module build failed (from ./node_modules/babel-loader/
+            </p> 
+          </div>
+       
         </div>  
 
       </div>
