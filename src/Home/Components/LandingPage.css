@@ -46,6 +46,13 @@
     color:black;
     background-color: salmon;
     align-items:center;
+    transition: all 0.3s ease-in;
+}
+
+.circle:hover{
+    background-color:#f9f9f9;
+    color: salmon;
+    transition: all 0.3s ease-out;
 }
 
 .crosser{
