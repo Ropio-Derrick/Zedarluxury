@@ -1,0 +1,75 @@
+.Main-nav{
+    padding-top: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left side */
+.Left{
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    background-image: url(../../public/pngaaa.com-2771780.png);
+    width: 90px;
+    height: 90px;
+    padding: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Label{
+    padding-left: -50px;
+    font-weight: 600;
+
+}
+
+/* The Right panel */
+
+.Right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Lister{
+    padding-left: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap :70px;
+    align-items: center;
+}
+
+.Page{
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.25s ease-out;
+}
+
+.Page:hover{
+    color: salmon;
+    transition: all 0.25s ease-in;
+}
+
+.Join-btn{
+    background-color: transparent;
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;
+    padding: 10px 30px 10px 30px;
+    border-radius: 14px;
+    font-size: 20px;
+    transition: all 0.25s ease-out;
+
+}
+
+.Join-btn:hover{
+    transition: all 0.25s ease-in;
+    color: rgb(250, 128, 114);  
+    border: 1px solid salmon;
+
+}
