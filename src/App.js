@@ -3,12 +3,15 @@ import "./App.css"
 import Nav from './Navigation/Nav'
 import Home from './Home/Home'
 import Footer from './Footer/Footer'
+import Hovered from './Home/Components/Hovered'
 
 function App() {
   return (
     <div className="App">
         <Nav/>
+        <Hovered/>
         <Home/>
+
         <Footer/>
     </div>
   )
