@@ -1,6 +1,10 @@
 .Block-Main{
-    margin-top: 100px;
-}
+    padding-top: 100px;
+
+} 
+
+
+
 .Block-Main-Text{
     text-align: center;
     font-size: 50px;
@@ -18,11 +22,10 @@
     align-items: center;
     text-align: center;
     gap: 10px;
-
-}
+    }
 
 .Block-Box:hover{
-    background-color: rgba(255, 255, 255, 0.041);
+    background-color: rgba(255, 255, 255, 0.015);
     transition: all 0.3s ease-out;
 }
 
@@ -33,7 +36,39 @@
     width: 100%;
     transition: all 0.3s ease-in;
     border-radius: 14px;
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
+
+.Block-Box span:first-child {
+    display: inline-block;
+    padding: 10px;
+  }
+
+.Block-Box span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+  }
+
+  span {
+    transition: transform 0.2s ease-out;
+  }
+ 
+  .Block-Box:hover span:first-child {
+    transform: translateY(100%);
+  }
+ 
+  .Block-Box:hover span:last-child {
+    transform: none;
+  }
 
 .Block-Icon{
     padding-top: 14px;

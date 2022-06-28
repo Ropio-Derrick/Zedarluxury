@@ -11,35 +11,42 @@ function WhatWeDo() {
 
       <div className="Block-House">
         <div className="Block-Box">
-          <StackedBarChartRounded className="Block-Icon" />
-          <div className="Block-closer">
+            
+          <span>
+            <StackedBarChartRounded className="Block-Icon" />
             <h1 className="Block-Head">Lorem ipsum</h1>
+          </span>
+          <span className="Block-closer">
             <p className="Block-Text">
               Module build failed (from ./node_modules/babel-loader
             </p> 
-          </div>
+          </span>
        
         </div>  
         <div className="Block-Box">
+          <span>
           <FastfoodOutlined  className="Block-Icon" />
-          <div className="Block-closer">
-            <h1 className="Block-Head">Lorem ipsum</h1>
+          <h1 className="Block-Head">Lorem ipsum</h1>
+          </span>
+          <span className="Block-closer">
             <p className="Block-Text">
-              Module build failed (from ./node_modules/babel-loader/
+              Module build failed (from ./node_modules/babel-loader
             </p> 
-          </div>
+          </span>
        
         </div> 
         <div className="Block-Box">
+          <span>
           < FmdGoodOutlined className="Block-Icon" />
-          <div className="Block-closer">
-            <h1 className="Block-Head">Lorem ipsum</h1>
+          <h1 className="Block-Head">Lorem ipsum</h1>
+          </span>
+          <span className="Block-closer">
             <p className="Block-Text">
-              Module build failed (from ./node_modules/babel-loader/
+              Module build failed (from ./node_modules/babel-loader
             </p> 
-          </div>
+          </span>
        
-        </div>  
+        </div> 
 
       </div>
       
