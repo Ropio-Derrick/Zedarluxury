@@ -1,0 +1,115 @@
+.Footer-Main{
+    background-color:transparent;
+    height: 200px;
+}
+
+.Footer-House{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Footer-Slick{
+    
+    height: 200px;
+    flex: 25%;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.Footer-Info{
+    background-image: url(../../public/pngaaa.com-2771780.png);
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: relative;
+}
+
+.Footer-Info h1{
+    margin-top: 120px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.Footer-Info p{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -15px;
+}
+
+.Footer-Info p span{
+    color: salmon;
+}
+
+.Footer-House{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+
+.Footer-Lister{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.Footer-Lister h1 {
+    font-size: 24px;
+    color: salmon;
+    font-weight: 700;
+    letter-spacing:4px ;
+    padding-bottom: 0px;
+    margin: 0px;
+
+}
+
+
+.Footer-Lister a{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:17px ;
+    transition: 0.5s all ease-out;
+    cursor: pointer;
+    letter-spacing:4px ;
+}
+
+.Footer-Lister a:hover{
+    color: salmon;
+    transition: 0.5s all ease-in;
+}
+
+.Hover-Icon3 {
+    padding: 5px;
+    color:white;
+    font-size: 30px !important;
+    transition: 0.5s all ease-out;
+}
+
+.Hover-Icon3:hover{
+    color: salmon;
+    transition: 0.5s all ease-in;
+}
+
+.Footer-Head {
+    font-size: 24px;
+    color: salmon;
+    font-weight: 700;
+    letter-spacing:4px ;
+    padding-top: 10px;
+}
+
+.Hover-Icon4{
+    padding: 0px;
+    font-size: 17px !important;
+}
+
+.Footer-line{
+    font-size: 17px;
+    letter-spacing:2px ;
+}
