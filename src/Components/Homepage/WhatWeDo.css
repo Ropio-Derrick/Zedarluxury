@@ -69,18 +69,20 @@
 
 
 .WWD-Text-2{
+    color: #f2f2f2ad;
     margin: 0px;
     text-align: left;
     font-size: 17px;
 }
 .WWD-Text-29{
+    color: #f2f2f2ad;
     margin: 0px;
     text-align: right;
     font-size: 17px;
 }
 
 .WWD-Text-23{
-    
+    color: #f2f2f2ad;
     text-align: center;
     font-size: 17px;
     width: 70%;
@@ -89,9 +91,11 @@
 
 .WWD-Right {
     margin-top: 20px;
+    width: 100%;
 }
 .WWD-Right-Image{
     border-radius: 30px;
+    width: 100%;
 }
 .WWD-Right-Image2{
     border-radius: 30px;
@@ -104,13 +108,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .WWD-Image2{
     margin-top: 70px;
     align-self: center;
     height: 250px;
-    width: 250px;
+    padding: 0px;
+
+ 
 }
 
 @media screen and (max-width:710px) {
@@ -137,11 +144,11 @@
         .WWD-Text-23{
             padding-left: 20px;
         padding-right: 20px;
-        text-align: justify;
+        text-align: left;
         
         }
     .WWD-Text-2{
-        text-align: justify;
+        text-align: left;
     }
     .WWD-Text-123{
         padding-top: 00px;
@@ -153,13 +160,19 @@
         grid-template-columns:  1fr;
     }
     .WWD-Text-123{
+        font-size: 27px;
         padding-left: 20px;
         text-align: left;
     }
   .WWD-Text-129{
+    font-size: 27px;
         text-align: left;
     }
-    .WWD-Text-29{
-        text-align: justify;
+    .WWD-Text-12{
+        font-size: 27px;
     }
+    .WWD-Text-29{
+        text-align: left;
+    }
+   
 }
