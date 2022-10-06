@@ -1,6 +1,8 @@
 import React from "react";
 import "./Closure.css";
 import "./WhatWeDo.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 function Closure() {
   return (
@@ -9,7 +11,36 @@ function Closure() {
         <h1 className="WWD-Text-12">
           Slide <span>Show</span>
         </h1>
-        <img className="SLI" src={require("../Asssets/Images/logo512.png")} />
+        <Carousel>
+          <div>
+            <img
+              className="CI"
+              src="https://images.unsplash.com/photo-1598956500798-7b64cf4267f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+            />
+            <p></p>
+          </div>
+          <div>
+            <img
+              className="CI"
+              src="https://images.unsplash.com/photo-1543066756-209ae0714cb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+            />
+            <p></p>
+          </div>
+          <div>
+            <img
+              className="CI"
+              src="https://images.unsplash.com/photo-1579723798913-390e4be1d6ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+            />
+            <p></p>
+          </div>
+          <div>
+            <img
+              className="CI"
+              src="https://images.unsplash.com/photo-1558010089-dba291b9d5eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+            />
+            <p></p>
+          </div>
+        </Carousel>
       </div>
       <div className="WWD-Left">
         <h1 className="WWD-Text-12">

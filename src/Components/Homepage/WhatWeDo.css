@@ -6,15 +6,12 @@
     padding-right: 50px;
     margin-bottom: 50px;
     margin-top: 30px;
-    opacity: 50%;
+    opacity: 100%;
 
     transition: all 1s ease-in;
 }
 
-.WWD-Board:hover{
-    transition: all 1s ease-out;
-    opacity: 100%;
-}
+
 
 .WWD-Text-1{
     padding-top: 30px;
@@ -91,12 +88,17 @@
 }
 
 .WWD-Right {
-    margin-top: 30px;
-    background-image: url("../Asssets/Images/pngaaa.com-7975948.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin-top: 20px;
 }
+.WWD-Right-Image{
+    border-radius: 30px;
+}
+.WWD-Right-Image2{
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 20px;
+}
+
 
 .WWD-Left1{
     display: flex;

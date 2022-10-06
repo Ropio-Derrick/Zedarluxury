@@ -4,7 +4,12 @@ function WhatWeDo() {
   return (
     <div>
       <div className="WWD-Board">
-        <div className="WWD-Right"></div>
+        <div className="WWD-Right">
+          <img
+            className="WWD-Right-Image"
+            src="https://plus.unsplash.com/premium_photo-1661277722008-1811ff8981db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+          />{" "}
+        </div>
         <div className="WWD-Left">
           <h1 className="WWD-Text-12">
             Zedar <span>Luxury</span>
@@ -54,8 +59,8 @@ function WhatWeDo() {
         </div>
         <div className="WWD-Left1">
           <img
-            className="WWD-Image2"
-            src={require("../Asssets/Images/pngaaa.com-7975948.png")}
+            className="WWD-Right-Image2"
+            src="https://plus.unsplash.com/premium_photo-1661277716706-34a42c8f8f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           />
         </div>
       </div>
