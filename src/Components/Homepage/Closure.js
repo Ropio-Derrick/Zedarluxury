@@ -16,6 +16,7 @@ function Closure() {
             <img
               className="CI"
               src="https://images.unsplash.com/photo-1598956500798-7b64cf4267f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt=""
             />
             <p></p>
           </div>
@@ -23,6 +24,7 @@ function Closure() {
             <img
               className="CI"
               src="https://images.unsplash.com/photo-1543066756-209ae0714cb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt=""
             />
             <p></p>
           </div>
@@ -30,6 +32,7 @@ function Closure() {
             <img
               className="CI"
               src="https://images.unsplash.com/photo-1579723798913-390e4be1d6ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt=""
             />
             <p></p>
           </div>
@@ -37,6 +40,7 @@ function Closure() {
             <img
               className="CI"
               src="https://images.unsplash.com/photo-1558010089-dba291b9d5eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+              alt=""
             />
             <p></p>
           </div>

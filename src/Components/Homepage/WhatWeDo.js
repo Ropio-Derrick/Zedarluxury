@@ -7,6 +7,7 @@ function WhatWeDo() {
         <div className="WWD-Right">
           <img
             className="WWD-Right-Image"
+            alt=""
             src="https://plus.unsplash.com/premium_photo-1661277722008-1811ff8981db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
           />{" "}
         </div>
@@ -61,6 +62,7 @@ function WhatWeDo() {
           <img
             className="WWD-Right-Image2"
             src="https://plus.unsplash.com/premium_photo-1661277716706-34a42c8f8f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt=""
           />
         </div>
       </div>

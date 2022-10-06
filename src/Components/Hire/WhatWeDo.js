@@ -115,6 +115,7 @@ function WhatWeDo() {
           <img
             className="WWD-Image2"
             src={require("../Asssets/Images/pngaaa.com-7975948.png")}
+            alt=""
           />
         </div>
       </div>
